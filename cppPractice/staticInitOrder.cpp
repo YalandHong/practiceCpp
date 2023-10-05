@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+#define printPtr(ptr) cout << #ptr << ": " << ptr << endl
+
 class foo {
   public:
     foo()
@@ -25,8 +27,8 @@ int main()
     static foo f3;
     func();
     cout << "main end" << endl;
-    cout << &f0 << endl;
-    cout << &f1 << endl;
-    cout << &f3 << endl;
+    printPtr(&f0);
+    printPtr(&f1);
+    printPtr(&f3);
     return 0;
 }
