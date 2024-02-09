@@ -46,13 +46,13 @@ int main(int argc, char const* argv[])
     // a4 = a3;
     // A a5(A());
 
-    A a6 = 10;
+    // A a6 = 10;
 
     // printPtr(&a1);
     // printPtr(&a2);
     // printPtr(&a3);
-    printPtr(&a4);
+    // printPtr(&a4);
     // printPtr(&a5);
-    printPtr(&a6);
+    // printPtr(&a6);
     return 0;
 }
